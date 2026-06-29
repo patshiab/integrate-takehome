@@ -79,6 +79,8 @@
   --color-inverted-secondary-light: #817f7a;
   --color-inverted-secondary-dark: #ffffff;
 
+  --color-border-callout: #511985;
+
   /* Status colors */
   --color-warning-light: #fdfdf6;
   --color-warning-dark: #ffffff;
@@ -110,12 +112,29 @@
   --spacing-xxs: 2px;
   --spacing-xs: 3px;
   --spacing-s: 4px;
+  --spacing-s-plus: 7px;
   --spacing-m: 6px;
+  --spacing-m-plus: 8px;
   --spacing-l: 12px;
   --spacing-xl: 20px;
 
   /* Font family */
   --font-family-mono: 'Spline Sans Mono', monospace;
+}
+
+@utility font-10-mono-bold {
+  font-family: 'Spline Sans Mono', monospace;
+  font-weight: 700;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+@utility font-12-mono-reg {
+  font-family: 'Spline Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 body {
