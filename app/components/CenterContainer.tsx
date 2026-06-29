@@ -6,7 +6,7 @@ interface CenterContainerProps {
 
 export default function CenterContainer({ children }: CenterContainerProps) {
   return (
-    <div className="flex items-center justify-center min-h-screen w-full bg-bg-default-light">
+    <div className="flex items-center justify-center min-h-dvh w-dvw bg-default-light">
       {children}
     </div>
   );
